@@ -49,4 +49,5 @@ def sort_by_date(list_id, reverse=True):
         """
 
    sorted_list_id = sorted(list_id, key=lambda x: x['date'])
+
    return sorted_list_id
