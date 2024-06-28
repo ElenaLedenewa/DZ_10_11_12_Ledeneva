@@ -1,4 +1,4 @@
-# Работа с виджетами клиента
+# Работа с виджетами клиента банка
 from widget import get_data, mask_account_card  # type: ignore
 from processing import sort_by_date, filter_by_state  # type: ignore
 
