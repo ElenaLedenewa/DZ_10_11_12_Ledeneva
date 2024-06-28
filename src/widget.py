@@ -1,5 +1,5 @@
 from typing import Union
-from masks import get_mask_account, get_mask_card_number
+from masks import get_mask_account, get_mask_card_number  # type: ignore
 
 
 def mask_account_card(card_or_account_widget: Union[str]) -> str:
@@ -12,11 +12,6 @@ def mask_account_card(card_or_account_widget: Union[str]) -> str:
 
     prefix_widget = ''
     number_widget = ''
-
-#    for sym in card_or_account_widget:
-#        if not sym.isdigit():
-#           prefix_vidget = prefix_vidget + sym
-#        else
 
     widgets_list = card_or_account_widget.split(" ")
     prefix_widget = ""
